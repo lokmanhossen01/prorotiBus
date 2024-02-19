@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +8,11 @@
     <!-- daisyUI link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body >
     <!-- header section start here  -->
     <header>
         <!-- navBar section start here -->
@@ -66,34 +69,34 @@
             <div class="flex col-span-2 justify-around">
                 <!-- NEW15 SECTION CARD -->
                 <div class="card card-side shadow-xl bg-[#FFBF0F]">
-                    <div class="card-body"> 
-                      <h2 class="card-title font-medium">15% OFF</h2>
-                      <p>  on your next purchase <br> <span>
+                    <div class="card-body inter sm:text-left space-y-2"> 
+                      <h2 class=" card-title font-medium text-[#030712CC] text-4xl">15% OFF</h2>
+                      <p  class="text-xl text-[#030712CC] font-semibold">  on your next purchase <br> <span class="text-lg font-medium text-[#03071280]">
                         use by January 2024</span> </p>
                     </div>
 
                     <figure><img src="./images/cupon-devider.png" alt=""/></figure>
 
-                    <div>
-                        <h2>NEW15</h2>
-                        <p>Coupon Code</p>
+                    <div class="space-y-2 p-12">
+                        <h2 class="text-3xl font-bold">NEW15</h2>
+                        <p class="text-xl text-[#03071266]">Coupon Code</p>
                     </div>
                 </div>
 
                 <!-- COUPLE COUPON CARD -->
                 <div class="card card-side shadow-xl bg-[#F78C9C]">
-                    <div class="card-body"> 
-                      <h2 class="card-title">20% OFF</h2>
-                      <p>  on your next purchase <span>
-                        use by January 2024</span> </p>
-                    </div>
-
-                    <figure><img src="./images/cupon-devider.png" alt=""/></figure>
-
-                    <div>
-                        <h2>Couple 20</h2>
-                        <p>Coupon Code</p>
-                    </div>
+                    <div class="card-body inter sm:text-left space-y-2"> 
+                        <h2 class=" card-title font-medium text-[#030712CC] text-4xl">20% OFF</h2>
+                        <p  class="text-xl text-[#030712CC] font-semibold">  on your next purchase <br> <span class="text-lg font-medium text-[#03071280]">
+                          use by January 2024</span> </p>
+                      </div>
+  
+                      <figure><img src="./images/cupon-devider.png" alt=""/></figure>
+  
+                      <div class="space-y-2 p-12">
+                          <h2 class="text-3xl font-bold">Couple 20</h2>
+                          <p class="text-xl text-[#03071266]">Coupon Code</p>
+                      </div>
                 </div>
 
             </div>
@@ -183,7 +186,7 @@
                 <!-- kbd part -->
                 <div>
                     <div>
-                        <kbd class="kbd bg-[#F7F8F8]"><img src="./images/tabler-icon-steering-wheel.png" alt=""></kbd>
+                        <kbd class="w-24 bg-[#F7F8F8]"><img src="./images/tabler-icon-steering-wheel.png" alt=""></kbd>
                     </div>
 
                     <div>
@@ -259,8 +262,6 @@
                     </div>
                 </div>
             </div>
-
-            <img src="./images/info-devider.png" alt="">
 
             <!-- left side -->
             <div>
@@ -368,5 +369,8 @@
         </aside>
     </footer>
     <!-- footer section end -->
+
+    <!-- js link -->
+    <script src="./js/progroti.js"></script>
 </body>
 </html>
